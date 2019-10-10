@@ -5,10 +5,10 @@
 % \setbeamercolor{progress bar}{fg=green,bg=blue}
 \usepackage{pgfpages}
 
-\setbeameroption{hide notes}
+% \setbeameroption{hide notes}
 % \setbeameroption{show only notes}
-% \setbeameroption{show notes on second screen=right}
-
+\setbeameroption{show notes on second screen=right}
+% \setbeamertemplate{note page}[plain]
 
 % References like (author, year)
 \usepackage[backend=biber,style=alphabetic,citestyle=authoryear]{biblatex}
@@ -27,7 +27,7 @@
 }
 \makeatother
 
-% Vector command
+% Vector command   \*V
 \newcommand{\abs}[1]{
 \| #1 \|
 }
@@ -36,8 +36,6 @@
 
 % Better itemize
 \newenvironment{wideitemize}{\itemize\addtolength{\itemsep}{10pt}}{\enditemize}
-
-
 
 
 

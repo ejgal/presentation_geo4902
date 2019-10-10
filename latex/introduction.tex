@@ -1,0 +1,69 @@
+\section{Introduction}
+
+\begin{frame}{Applications of NWP}
+  \begin{wideitemize}
+    \item Extreme weather events
+    \item Climate prediction
+    \item Air quality
+  \end{wideitemize}
+\end{frame}
+
+\note{
+* Extreme weather events
+  - Infrastructure - roads, power productions, traffic ++
+  - Health - hurricanes
+  - Farming
+
+Examples of forecasted events with long lead time
+* Hurricane sandy 2008 - 8 days lead time
+* Russian heatwave 2010 - more than one week
+}
+
+\begin{frame}{Dynamical core}
+
+$$ \frac{d \*V}{dt} = -2 \Omega \times \*V - \frac{1}{\rho} \nabla p -\nabla \Phi + \*F $$
+
+$$ \frac{dT}{dt} = \frac{R}{C_p}\frac{T}{p}\frac{dp}{dt} + \frac{Q}{C_p} $$
+
+$$ \frac{d \rho }{dt} = - \rho \nabla \cdot \*V $$
+
+$$ \frac{dq}{dt} = M $$
+
+$$ p = \rho R T $$
+
+\end{frame}
+
+\note[itemize]{
+  \item Momentum
+  \item Thermodynamic
+  \item Continuity
+  \item Water vapor
+  \item Equation of state
+
+  Simplifications + discretizing
+}
+
+
+\begin{frame}{Model physics}
+
+  \begin{wideitemize}
+    \item $\*F$ - Momentum
+    \item Q - Heat
+    \item M - Water vapor
+  \end{wideitemize}
+
+\end{frame}
+
+
+\begin{frame}{Future vision}
+  \begin{wideitemize}
+    \item Global model 1x1 km grid
+    \item Fully coupled atmosphere, land, ocean and sea ice
+  \end{wideitemize}
+\end{frame}
+
+
+\note{
+
+  The articles states a future vision of
+}
