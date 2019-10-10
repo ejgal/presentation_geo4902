@@ -4,6 +4,9 @@ pdf: $(DOC).pdf
 
 all: pdf
 
+present: $(DOC).pdf
+	dspdfviewer $(DOC).pdf
+
 $(DOC).pdf: $(DOC).tex references.bib
 	pdflatex $(DOC)
 	biber $(DOC)
