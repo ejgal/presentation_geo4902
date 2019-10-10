@@ -1,0 +1,18 @@
+# Latex
+*.out
+*.pdf
+*.aux
+*.log
+*.bcf
+*.fls
+*.fdb_latexmk
+*.run.xml
+*.dvi
+settings.json
+__latexindent_temp.tex
+*synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.toc
